@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LocationRobeTradionnelComponent } from './location-robe-tradionnel/location-robe-tradionnel.component';
 import { RobeTradionnelCrudComponent } from './robe-tradionnel-crud/robe-tradionnel-crud.component';
 import { FormulaireRobeTradionnelCrudComponent } from './formulaire-robe-tradionnel-crud/formulaire-robe-tradionnel-crud.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LocationRobeTradionnelComponent,
     RobeTradionnelCrudComponent,
-    FormulaireRobeTradionnelCrudComponent
+    FormulaireRobeTradionnelCrudComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
