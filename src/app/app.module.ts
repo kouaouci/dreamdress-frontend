@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LocationRobeTradionnelComponent } from './location-robe-tradionnel/location-robe-tradionnel.component';
+import { RobeTradionnelCrudComponent } from './robe-tradionnel-crud/robe-tradionnel-crud.component';
+import { FormulaireRobeTradionnelCrudComponent } from './formulaire-robe-tradionnel-crud/formulaire-robe-tradionnel-crud.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LocationRobeTradionnelComponent,
+    RobeTradionnelCrudComponent,
+    FormulaireRobeTradionnelCrudComponent
   ],
   imports: [
     BrowserModule,
